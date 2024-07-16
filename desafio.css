@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    
+}
+header h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+     font-variant: small-caps;
+
+
+}
+header p{
+    font-size: 20px;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+header a:hover{
+    text-decoration: underline;
+}
+section{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 50px;
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+section p{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.imagens{
+    background-image: url(img/background001.jpg);
+    background-color: antiquewhite;
+    background-position: right center;
+    color: white;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    max-width: 98%;
+    box-shadow: inset 4px 4px 10px 0px rgba(0, 0, 0, 0.641);
+}
+.imagens p{
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-block;
+    padding: 10px;
+    
+}
+#img2{
+    background-image: url(img/background002.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+footer a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+}
+footer a:hover {
+    text-decoration: underline;
+}
